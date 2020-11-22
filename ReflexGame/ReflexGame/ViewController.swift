@@ -11,8 +11,10 @@ class ViewController: UIViewController {
     
     var score = 0
     var timer = Timer()
+    var hideTimer = Timer()
     var counter = 0
     var dogArray = [UIImageView]()
+    var highScore = 0
 
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
@@ -28,8 +30,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var doggy9: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         scoreLabel.text = "Score: \(score)"
+        let storedHighScore = UserDefaults.standard.object(forKey: "highScore")
+        if storedHighScore == nil {
+            highScore = 0
+            highScoreLabel.text = "Highscore: \(highScore)"
+        }
+        else if let newScore = storedHighScore as? Int {
+            highScore = newScore
+            highScoreLabel.text = "Highscore: \(highScore)"
+        }
         
         // This images can be clicked
         doggy1.isUserInteractionEnabled = true
@@ -65,16 +75,19 @@ class ViewController: UIViewController {
         counter = 10
         timeLabel.text = String(counter)
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(countDown), userInfo: nil, repeats: true)
+        hideTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(hideViews), userInfo: nil, repeats: true)
         
         dogArray = [doggy1, doggy2, doggy3, doggy4, doggy5, doggy6, doggy7, doggy8, doggy9]
-        
+        hideViews()
         
     }
     
-    func hide() {
+    @objc func hideViews() {
         for dog in dogArray {
-            
+            dog.isHidden = true
         }
+        let selectedNumber = Int(arc4random_uniform(UInt32(dogArray.count - 1)))
+        dogArray[selectedNumber].isHidden = false
     }
     
     @objc func increaseScore () {
@@ -90,12 +103,26 @@ class ViewController: UIViewController {
         
         if counter == 0 {
             timer.invalidate()
+            hideTimer.invalidate()
+            for dog in dogArray {
+                dog.isHidden = true
+            }
+            if self.highScore < self.score {
+                self.highScore = self.score
+                self.highScoreLabel.text = "Highscore: \(self.highScore)"
+                UserDefaults.standard.set(self.highScore, forKey: "highScore")
+            }
             
             let alert = UIAlertController(title: "Time is over", message: "Wanna play more", preferredStyle: UIAlertController.Style.alert)
             let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: nil)
 
             let replayButton = UIAlertAction(title: "Replay", style: UIAlertAction.Style.default) { (UIAlertAction) in
-                // TODO: Replay functions gonna added
+                self.score = 0
+                self.scoreLabel.text = "Score: \(self.score)"
+                self.counter = 10
+                self.timeLabel.text = String(self.counter)
+                self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.countDown), userInfo: nil, repeats: true)
+                self.hideTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(self.hideViews), userInfo: nil, repeats: true)
             }
             
             alert.addAction(okButton)
