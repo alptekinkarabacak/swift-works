@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4E7F9A254A0B4B000A19BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E7F99254A0B4B000A19BA /* Constants.swift */; };
+		3EBD46BA254A1CE5005E00D2 /* BluetoothDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD46B9254A1CE5005E00D2 /* BluetoothDelegate.swift */; };
+		3EBD46BF254A1E05005E00D2 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD46BE254A1E05005E00D2 /* BluetoothManager.swift */; };
+		3EF1E37E251F7A450005C005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E37D251F7A450005C005 /* AppDelegate.swift */; };
+		3EF1E380251F7A450005C005 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E37F251F7A450005C005 /* SceneDelegate.swift */; };
+		3EF1E382251F7A450005C005 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E381251F7A450005C005 /* MainViewController.swift */; };
+		3EF1E385251F7A450005C005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1E383251F7A450005C005 /* Main.storyboard */; };
+		3EF1E387251F7A470005C005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1E386251F7A470005C005 /* Assets.xcassets */; };
+		3EF1E395251F7A470005C005 /* bluetoothAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E394251F7A470005C005 /* bluetoothAppTests.swift */; };
+		3EF1E3A0251F7A470005C005 /* bluetoothAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E39F251F7A470005C005 /* bluetoothAppUITests.swift */; };
+		3EF1E3B1251F7B340005C005 /* ScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1E3B0251F7B340005C005 /* ScanTableViewController.swift */; };
+		3EF1E3BC251F7BDB0005C005 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF1E3BB251F7BDB0005C005 /* Launch Screen.storyboard */; };
+		3EF1E3C8251FFE3D0005C005 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF1E3C7251FFE3D0005C005 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF1E391251F7A470005C005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF1E372251F7A450005C005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF1E379251F7A450005C005;
+			remoteInfo = bluetoothApp;
+		};
+		3EF1E39C251F7A470005C005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF1E372251F7A450005C005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF1E379251F7A450005C005;
+			remoteInfo = bluetoothApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E4E7F99254A0B4B000A19BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3EBD46B9254A1CE5005E00D2 /* BluetoothDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDelegate.swift; sourceTree = "<group>"; };
+		3EBD46BE254A1E05005E00D2 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		3EF1E37A251F7A450005C005 /* bluetoothApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF1E37D251F7A450005C005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EF1E37F251F7A450005C005 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EF1E381251F7A450005C005 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3EF1E384251F7A450005C005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF1E386251F7A470005C005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF1E38B251F7A470005C005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF1E390251F7A470005C005 /* bluetoothAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluetoothAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF1E394251F7A470005C005 /* bluetoothAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluetoothAppTests.swift; sourceTree = "<group>"; };
+		3EF1E396251F7A470005C005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF1E39B251F7A470005C005 /* bluetoothAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluetoothAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF1E39F251F7A470005C005 /* bluetoothAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluetoothAppUITests.swift; sourceTree = "<group>"; };
+		3EF1E3A1251F7A470005C005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF1E3B0251F7B340005C005 /* ScanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTableViewController.swift; sourceTree = "<group>"; };
+		3EF1E3BB251F7BDB0005C005 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3EF1E3C7251FFE3D0005C005 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF1E377251F7A450005C005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF1E3C8251FFE3D0005C005 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF1E38D251F7A470005C005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF1E398251F7A470005C005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF1E371251F7A450005C005 = {
+			isa = PBXGroup;
+			children = (
+				3EF1E37C251F7A450005C005 /* bluetoothApp */,
+				3EF1E393251F7A470005C005 /* bluetoothAppTests */,
+				3EF1E39E251F7A470005C005 /* bluetoothAppUITests */,
+				3EF1E37B251F7A450005C005 /* Products */,
+				3EF1E3C6251FFE3C0005C005 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF1E37B251F7A450005C005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1E37A251F7A450005C005 /* bluetoothApp.app */,
+				3EF1E390251F7A470005C005 /* bluetoothAppTests.xctest */,
+				3EF1E39B251F7A470005C005 /* bluetoothAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF1E37C251F7A450005C005 /* bluetoothApp */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1E37D251F7A450005C005 /* AppDelegate.swift */,
+				3EF1E37F251F7A450005C005 /* SceneDelegate.swift */,
+				3EBD46B9254A1CE5005E00D2 /* BluetoothDelegate.swift */,
+				3EF1E381251F7A450005C005 /* MainViewController.swift */,
+				3EF1E383251F7A450005C005 /* Main.storyboard */,
+				3EF1E386251F7A470005C005 /* Assets.xcassets */,
+				3EF1E3BB251F7BDB0005C005 /* Launch Screen.storyboard */,
+				3EF1E3B0251F7B340005C005 /* ScanTableViewController.swift */,
+				3EBD46BE254A1E05005E00D2 /* BluetoothManager.swift */,
+				3EF1E38B251F7A470005C005 /* Info.plist */,
+				3E4E7F99254A0B4B000A19BA /* Constants.swift */,
+			);
+			path = bluetoothApp;
+			sourceTree = "<group>";
+		};
+		3EF1E393251F7A470005C005 /* bluetoothAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1E394251F7A470005C005 /* bluetoothAppTests.swift */,
+				3EF1E396251F7A470005C005 /* Info.plist */,
+			);
+			path = bluetoothAppTests;
+			sourceTree = "<group>";
+		};
+		3EF1E39E251F7A470005C005 /* bluetoothAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1E39F251F7A470005C005 /* bluetoothAppUITests.swift */,
+				3EF1E3A1251F7A470005C005 /* Info.plist */,
+			);
+			path = bluetoothAppUITests;
+			sourceTree = "<group>";
+		};
+		3EF1E3C6251FFE3C0005C005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1E3C7251FFE3D0005C005 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF1E379251F7A450005C005 /* bluetoothApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF1E3A4251F7A470005C005 /* Build configuration list for PBXNativeTarget "bluetoothApp" */;
+			buildPhases = (
+				3EF1E376251F7A450005C005 /* Sources */,
+				3EF1E377251F7A450005C005 /* Frameworks */,
+				3EF1E378251F7A450005C005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bluetoothApp;
+			productName = bluetoothApp;
+			productReference = 3EF1E37A251F7A450005C005 /* bluetoothApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF1E38F251F7A470005C005 /* bluetoothAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF1E3A7251F7A470005C005 /* Build configuration list for PBXNativeTarget "bluetoothAppTests" */;
+			buildPhases = (
+				3EF1E38C251F7A470005C005 /* Sources */,
+				3EF1E38D251F7A470005C005 /* Frameworks */,
+				3EF1E38E251F7A470005C005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF1E392251F7A470005C005 /* PBXTargetDependency */,
+			);
+			name = bluetoothAppTests;
+			productName = bluetoothAppTests;
+			productReference = 3EF1E390251F7A470005C005 /* bluetoothAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF1E39A251F7A470005C005 /* bluetoothAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF1E3AA251F7A470005C005 /* Build configuration list for PBXNativeTarget "bluetoothAppUITests" */;
+			buildPhases = (
+				3EF1E397251F7A470005C005 /* Sources */,
+				3EF1E398251F7A470005C005 /* Frameworks */,
+				3EF1E399251F7A470005C005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF1E39D251F7A470005C005 /* PBXTargetDependency */,
+			);
+			name = bluetoothAppUITests;
+			productName = bluetoothAppUITests;
+			productReference = 3EF1E39B251F7A470005C005 /* bluetoothAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF1E372251F7A450005C005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3EF1E379251F7A450005C005 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3EF1E38F251F7A470005C005 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3EF1E379251F7A450005C005;
+					};
+					3EF1E39A251F7A470005C005 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3EF1E379251F7A450005C005;
+					};
+				};
+			};
+			buildConfigurationList = 3EF1E375251F7A450005C005 /* Build configuration list for PBXProject "bluetoothApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF1E371251F7A450005C005;
+			productRefGroup = 3EF1E37B251F7A450005C005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF1E379251F7A450005C005 /* bluetoothApp */,
+				3EF1E38F251F7A470005C005 /* bluetoothAppTests */,
+				3EF1E39A251F7A470005C005 /* bluetoothAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF1E378251F7A450005C005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF1E3BC251F7BDB0005C005 /* Launch Screen.storyboard in Resources */,
+				3EF1E387251F7A470005C005 /* Assets.xcassets in Resources */,
+				3EF1E385251F7A450005C005 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF1E38E251F7A470005C005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF1E399251F7A470005C005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF1E376251F7A450005C005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4E7F9A254A0B4B000A19BA /* Constants.swift in Sources */,
+				3EBD46BA254A1CE5005E00D2 /* BluetoothDelegate.swift in Sources */,
+				3EF1E3B1251F7B340005C005 /* ScanTableViewController.swift in Sources */,
+				3EBD46BF254A1E05005E00D2 /* BluetoothManager.swift in Sources */,
+				3EF1E382251F7A450005C005 /* MainViewController.swift in Sources */,
+				3EF1E37E251F7A450005C005 /* AppDelegate.swift in Sources */,
+				3EF1E380251F7A450005C005 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF1E38C251F7A470005C005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF1E395251F7A470005C005 /* bluetoothAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF1E397251F7A470005C005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF1E3A0251F7A470005C005 /* bluetoothAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF1E392251F7A470005C005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF1E379251F7A450005C005 /* bluetoothApp */;
+			targetProxy = 3EF1E391251F7A470005C005 /* PBXContainerItemProxy */;
+		};
+		3EF1E39D251F7A470005C005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF1E379251F7A450005C005 /* bluetoothApp */;
+			targetProxy = 3EF1E39C251F7A470005C005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EF1E383251F7A450005C005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF1E384251F7A450005C005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF1E3A2251F7A470005C005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EF1E3A3251F7A470005C005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF1E3A5251F7A470005C005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL7KBJ5JQE;
+				INFOPLIST_FILE = bluetoothApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bluetooth.bluetoothApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF1E3A6251F7A470005C005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL7KBJ5JQE;
+				INFOPLIST_FILE = bluetoothApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bluetooth.bluetoothApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EF1E3A8251F7A470005C005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL7KBJ5JQE;
+				INFOPLIST_FILE = bluetoothAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bluetooth.bluetoothAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluetoothApp.app/bluetoothApp";
+			};
+			name = Debug;
+		};
+		3EF1E3A9251F7A470005C005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL7KBJ5JQE;
+				INFOPLIST_FILE = bluetoothAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bluetooth.bluetoothAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluetoothApp.app/bluetoothApp";
+			};
+			name = Release;
+		};
+		3EF1E3AB251F7A470005C005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL7KBJ5JQE;
+				INFOPLIST_FILE = bluetoothAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bluetooth.bluetoothAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bluetoothApp;
+			};
+			name = Debug;
+		};
+		3EF1E3AC251F7A470005C005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL7KBJ5JQE;
+				INFOPLIST_FILE = bluetoothAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bluetooth.bluetoothAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bluetoothApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF1E375251F7A450005C005 /* Build configuration list for PBXProject "bluetoothApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF1E3A2251F7A470005C005 /* Debug */,
+				3EF1E3A3251F7A470005C005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF1E3A4251F7A470005C005 /* Build configuration list for PBXNativeTarget "bluetoothApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF1E3A5251F7A470005C005 /* Debug */,
+				3EF1E3A6251F7A470005C005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF1E3A7251F7A470005C005 /* Build configuration list for PBXNativeTarget "bluetoothAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF1E3A8251F7A470005C005 /* Debug */,
+				3EF1E3A9251F7A470005C005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF1E3AA251F7A470005C005 /* Build configuration list for PBXNativeTarget "bluetoothAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF1E3AB251F7A470005C005 /* Debug */,
+				3EF1E3AC251F7A470005C005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF1E372251F7A450005C005 /* Project object */;
+}
