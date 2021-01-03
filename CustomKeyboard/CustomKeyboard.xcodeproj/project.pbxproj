@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E6E5C192591464E000260EB /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E5C182591464E000260EB /* LocationsViewController.swift */; };
-		3ECC78A9258F950100326A8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC78A8258F950100326A8F /* AppDelegate.swift */; };
-		3ECC78AB258F950100326A8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC78AA258F950100326A8F /* SceneDelegate.swift */; };
-		3ECC78AD258F950100326A8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC78AC258F950100326A8F /* ViewController.swift */; };
-		3ECC78B0258F950100326A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC78AE258F950100326A8F /* Main.storyboard */; };
-		3ECC78B3258F950100326A8F /* MapExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC78B1258F950100326A8F /* MapExample.xcdatamodeld */; };
-		3ECC78B5258F950300326A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC78B4258F950300326A8F /* Assets.xcassets */; };
-		3ECC78B8258F950300326A8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC78B6258F950300326A8F /* LaunchScreen.storyboard */; };
+		3EBA335C25A1106800D3CB0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA335B25A1106800D3CB0D /* AppDelegate.swift */; };
+		3EBA335E25A1106800D3CB0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA335D25A1106800D3CB0D /* SceneDelegate.swift */; };
+		3EBA336025A1106800D3CB0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA335F25A1106800D3CB0D /* ViewController.swift */; };
+		3EBA336325A1106800D3CB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA336125A1106800D3CB0D /* Main.storyboard */; };
+		3EBA336525A1106A00D3CB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA336425A1106A00D3CB0D /* Assets.xcassets */; };
+		3EBA336825A1106A00D3CB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA336625A1106A00D3CB0D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E6E5C182591464E000260EB /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
-		3ECC78A5258F950100326A8F /* MapExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ECC78A8258F950100326A8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3ECC78AA258F950100326A8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3ECC78AC258F950100326A8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3ECC78AF258F950100326A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3ECC78B2258F950100326A8F /* MapExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapExample.xcdatamodel; sourceTree = "<group>"; };
-		3ECC78B4258F950300326A8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3ECC78B7258F950300326A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3ECC78B9258F950300326A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EBA335825A1106800D3CB0D /* CustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBA335B25A1106800D3CB0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EBA335D25A1106800D3CB0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EBA335F25A1106800D3CB0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EBA336225A1106800D3CB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EBA336425A1106A00D3CB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EBA336725A1106A00D3CB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EBA336925A1106A00D3CB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3ECC78A2258F950100326A8F /* Frameworks */ = {
+		3EBA335525A1106800D3CB0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3ECC789C258F950000326A8F = {
+		3EBA334F25A1106800D3CB0D = {
 			isa = PBXGroup;
 			children = (
-				3ECC78A7258F950100326A8F /* MapExample */,
-				3ECC78A6258F950100326A8F /* Products */,
+				3EBA335A25A1106800D3CB0D /* CustomKeyboard */,
+				3EBA335925A1106800D3CB0D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3ECC78A6258F950100326A8F /* Products */ = {
+		3EBA335925A1106800D3CB0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3ECC78A5258F950100326A8F /* MapExample.app */,
+				3EBA335825A1106800D3CB0D /* CustomKeyboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3ECC78A7258F950100326A8F /* MapExample */ = {
+		3EBA335A25A1106800D3CB0D /* CustomKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				3ECC78A8258F950100326A8F /* AppDelegate.swift */,
-				3ECC78AA258F950100326A8F /* SceneDelegate.swift */,
-				3ECC78AC258F950100326A8F /* ViewController.swift */,
-				3E6E5C182591464E000260EB /* LocationsViewController.swift */,
-				3ECC78AE258F950100326A8F /* Main.storyboard */,
-				3ECC78B4258F950300326A8F /* Assets.xcassets */,
-				3ECC78B6258F950300326A8F /* LaunchScreen.storyboard */,
-				3ECC78B9258F950300326A8F /* Info.plist */,
-				3ECC78B1258F950100326A8F /* MapExample.xcdatamodeld */,
+				3EBA335B25A1106800D3CB0D /* AppDelegate.swift */,
+				3EBA335D25A1106800D3CB0D /* SceneDelegate.swift */,
+				3EBA335F25A1106800D3CB0D /* ViewController.swift */,
+				3EBA336125A1106800D3CB0D /* Main.storyboard */,
+				3EBA336425A1106A00D3CB0D /* Assets.xcassets */,
+				3EBA336625A1106A00D3CB0D /* LaunchScreen.storyboard */,
+				3EBA336925A1106A00D3CB0D /* Info.plist */,
 			);
-			path = MapExample;
+			path = CustomKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3ECC78A4258F950100326A8F /* MapExample */ = {
+		3EBA335725A1106800D3CB0D /* CustomKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ECC78BC258F950300326A8F /* Build configuration list for PBXNativeTarget "MapExample" */;
+			buildConfigurationList = 3EBA336C25A1106A00D3CB0D /* Build configuration list for PBXNativeTarget "CustomKeyboard" */;
 			buildPhases = (
-				3ECC78A1258F950100326A8F /* Sources */,
-				3ECC78A2258F950100326A8F /* Frameworks */,
-				3ECC78A3258F950100326A8F /* Resources */,
+				3EBA335425A1106800D3CB0D /* Sources */,
+				3EBA335525A1106800D3CB0D /* Frameworks */,
+				3EBA335625A1106800D3CB0D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MapExample;
-			productName = MapExample;
-			productReference = 3ECC78A5258F950100326A8F /* MapExample.app */;
+			name = CustomKeyboard;
+			productName = CustomKeyboard;
+			productReference = 3EBA335825A1106800D3CB0D /* CustomKeyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3ECC789D258F950000326A8F /* Project object */ = {
+		3EBA335025A1106800D3CB0D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					3ECC78A4258F950100326A8F = {
+					3EBA335725A1106800D3CB0D = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = 3ECC78A0258F950000326A8F /* Build configuration list for PBXProject "MapExample" */;
+			buildConfigurationList = 3EBA335325A1106800D3CB0D /* Build configuration list for PBXProject "CustomKeyboard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 3ECC789C258F950000326A8F;
-			productRefGroup = 3ECC78A6258F950100326A8F /* Products */;
+			mainGroup = 3EBA334F25A1106800D3CB0D;
+			productRefGroup = 3EBA335925A1106800D3CB0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3ECC78A4258F950100326A8F /* MapExample */,
+				3EBA335725A1106800D3CB0D /* CustomKeyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3ECC78A3258F950100326A8F /* Resources */ = {
+		3EBA335625A1106800D3CB0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ECC78B8258F950300326A8F /* LaunchScreen.storyboard in Resources */,
-				3ECC78B5258F950300326A8F /* Assets.xcassets in Resources */,
-				3ECC78B0258F950100326A8F /* Main.storyboard in Resources */,
+				3EBA336825A1106A00D3CB0D /* LaunchScreen.storyboard in Resources */,
+				3EBA336525A1106A00D3CB0D /* Assets.xcassets in Resources */,
+				3EBA336325A1106800D3CB0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3ECC78A1258F950100326A8F /* Sources */ = {
+		3EBA335425A1106800D3CB0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ECC78AD258F950100326A8F /* ViewController.swift in Sources */,
-				3E6E5C192591464E000260EB /* LocationsViewController.swift in Sources */,
-				3ECC78B3258F950100326A8F /* MapExample.xcdatamodeld in Sources */,
-				3ECC78A9258F950100326A8F /* AppDelegate.swift in Sources */,
-				3ECC78AB258F950100326A8F /* SceneDelegate.swift in Sources */,
+				3EBA336025A1106800D3CB0D /* ViewController.swift in Sources */,
+				3EBA335C25A1106800D3CB0D /* AppDelegate.swift in Sources */,
+				3EBA335E25A1106800D3CB0D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3ECC78AE258F950100326A8F /* Main.storyboard */ = {
+		3EBA336125A1106800D3CB0D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3ECC78AF258F950100326A8F /* Base */,
+				3EBA336225A1106800D3CB0D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3ECC78B6258F950300326A8F /* LaunchScreen.storyboard */ = {
+		3EBA336625A1106A00D3CB0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3ECC78B7258F950300326A8F /* Base */,
+				3EBA336725A1106A00D3CB0D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3ECC78BA258F950300326A8F /* Debug */ = {
+		3EBA336A25A1106A00D3CB0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		3ECC78BB258F950300326A8F /* Release */ = {
+		3EBA336B25A1106A00D3CB0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,38 +281,38 @@
 			};
 			name = Release;
 		};
-		3ECC78BD258F950300326A8F /* Debug */ = {
+		3EBA336D25A1106A00D3CB0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RL7KBJ5JQE;
-				INFOPLIST_FILE = MapExample/Info.plist;
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Working.MapExample;
+				PRODUCT_BUNDLE_IDENTIFIER = Working.CustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3ECC78BE258F950300326A8F /* Release */ = {
+		3EBA336E25A1106A00D3CB0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RL7KBJ5JQE;
-				INFOPLIST_FILE = MapExample/Info.plist;
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Working.MapExample;
+				PRODUCT_BUNDLE_IDENTIFIER = Working.CustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,38 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3ECC78A0258F950000326A8F /* Build configuration list for PBXProject "MapExample" */ = {
+		3EBA335325A1106800D3CB0D /* Build configuration list for PBXProject "CustomKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3ECC78BA258F950300326A8F /* Debug */,
-				3ECC78BB258F950300326A8F /* Release */,
+				3EBA336A25A1106A00D3CB0D /* Debug */,
+				3EBA336B25A1106A00D3CB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ECC78BC258F950300326A8F /* Build configuration list for PBXNativeTarget "MapExample" */ = {
+		3EBA336C25A1106A00D3CB0D /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3ECC78BD258F950300326A8F /* Debug */,
-				3ECC78BE258F950300326A8F /* Release */,
+				3EBA336D25A1106A00D3CB0D /* Debug */,
+				3EBA336E25A1106A00D3CB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3ECC78B1258F950100326A8F /* MapExample.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3ECC78B2258F950100326A8F /* MapExample.xcdatamodel */,
-			);
-			currentVersion = 3ECC78B2258F950100326A8F /* MapExample.xcdatamodel */;
-			path = MapExample.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 3ECC789D258F950000326A8F /* Project object */;
+	rootObject = 3EBA335025A1106800D3CB0D /* Project object */;
 }
